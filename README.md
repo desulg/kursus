@@ -62,8 +62,8 @@ ssh YourGreenyUsername@greeny.cs.tlu.ee
   ```
 1. Lisa vajdusel oma nimi ja email repositooriumi omanikuks ([Setting your username](https://help.github.com/articles/setting-your-username-in-git/)). Vajadusel hangi endale privaatne e-post @users.noreply.github.com lõpuga (https://github.com/settings/emails)
   ```
-  git config global user.name "Romil Robtsenkov"
-  git config global user.email romilrobtsenkov@users.noreply.github.com
+  git config --global user.name "Romil Robtsenkov"
+  git config --global user.email romilrobtsenkov@users.noreply.github.com
   ```
 1. Muuda faile ülesande lahendamiseks ja *Commit*'i iga olulisem muudatus, kasutades kahte käsku.
   ```
