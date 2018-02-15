@@ -133,6 +133,24 @@ Need rakenduvad ka päris elus!
 1. **Kohustuslik järgmiseks korrasks!**
    * **Vaata kuidas ja mis järjekorras JS ning brauser koostööd teevad [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ) by Philip Roberts**
    * **Singleton muster [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) by Addy Osmani**
+   
+### 2. loeng
+
+1. JS rakenduse ülesehitus (objektorienteeritud kood)
+    * JS "use strict" – [w3schools](http://www.w3schools.com/js/js_strict.asp), [ECMAScript 5 Strict Mode](http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/)
+    
+   ```JS
+   (function(){
+      "use strict";
+
+      // rakenduse sisu
+
+   })();
+   ```
+    * [näide](http://minitorn.cs.tlu.ee/~romil/singleton-example.js) – kas tunned ära kust lehelt on see pärit? 
+    * Kasutame Singleton mustrit (Loe kindlasti mustrite kohta lähemalt [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) by Addy Osmani)
+1. **Kohustuslik järgmiseks korrasks!**
+    **single-page-application artikli põhjal [Reimagining Single-Page Applications With Progressive Enhancement](https://www.smashingmagazine.com/2015/12/reimagining-single-page-applications-progressive-enhancement/)**
 
 ## Materjalid ja tööriistad
 
