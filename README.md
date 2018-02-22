@@ -155,7 +155,7 @@ Need rakenduvad ka päris elus!
 ### 2. praktikum
 
 1. Selleks, et jooksutada AJAX päringuid kohalikus masinas on vaja nt Chrome käivitada flag'iga `--allow-file-access-from-files`. Oluline on siinkohal välja tuua, et päringu `status` atribuut on pärinug õnnestumise puhul mitte 200 nagu tavaliselt, vaid hoopis 0.
-1. Et saada lintimist tööle enda arvutis on vaja:
+1. Selleks, et saada lintimist tööle enda arvutis on vaja:
  * Veendu, et arvutis on [Node.js](https://nodejs.org/en/)
  * Alusta projekti kaustas käsuga `npm init` (tekivad package.json/package-lock.json)
  * Paigalda projekti kaustas [standard](https://www.npmjs.com/package/standard) käsuga `npm i standard`
