@@ -152,6 +152,19 @@ Need rakenduvad ka päris elus!
 1. **Kohustuslik järgmiseks korrasks!**
     **single-page-application artikli põhjal [Reimagining Single-Page Applications With Progressive Enhancement](https://www.smashingmagazine.com/2015/12/reimagining-single-page-applications-progressive-enhancement/)**
 
+### 2. praktikum
+
+1. Selleks, et jooksutada AJAX päringuid kohalikus masinas on vaja nt Chrome käivitada flag'iga `--allow-file-access-from-files`. Oluline on siinkohal välja tuua, et päringu `status` atribuut on pärinug õnnestumise puhul mitte 200 nagu tavaliselt, vaid hoopis 0.
+1. Et saada lintimist tööle enda arvutis on vaja:
+ * Veendu, et arvutis on [Node.js](https://nodejs.org/en/)
+ * Alusta projekti kaustas käsuga `npm init` (tekivad package.json/package-lock.json)
+ * Paigalda projekti kaustas [standard](https://www.npmjs.com/package/standard) käsuga `npm i standard`
+ * Paigalda VS Code'i extension [JavaScript Standard Style](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs)
+ * VS Code sätetes luba parandamine salvestamisel `"standard.autoFixOnSave": true,` ja veendu, et tavaline lintimine on väljas `"javascript.validate.enable": false,`
+1. **MEELDETULETUS Kohustuslik järgmiseks loenguks!**
+    **single-page-application artikli põhjal [Reimagining Single-Page Applications With Progressive Enhancement](https://www.smashingmagazine.com/2015/12/reimagining-single-page-applications-progressive-enhancement/)**
+
+
 ## Materjalid ja tööriistad
 
 ### Tunnis kasutatavad rakendused
