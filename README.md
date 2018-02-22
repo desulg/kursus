@@ -164,6 +164,24 @@ Need rakenduvad ka päris elus!
  * Selleks, et tekkinud kaust node_modules ei läheks git'i üles, tuleb lisada `.gitignore` fail sisuga `node_modules` 
  * Paigalda VS Code'i extension [JavaScript Standard Style](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs)
  * VS Code sätetes luba parandamine salvestamisel `"standard.autoFixOnSave": true,` ja veendu, et tavaline lintimine on väljas `"javascript.validate.enable": false,`
+1. Varsti enam oma arvutis ainult teha ei saa ning oleks hea kui asi on üleval kuskil serveris, kus on ka HTTPS, nt greeny. Soovitan kasutada VS Code'i extensionit [sftp](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp). Config võib olla midagi sellist, eeldusel, et greeny port 22 on suunatud localhost 2222'te:
+```JSON
+{
+    "protocol": "sftp",
+    "host": "localhost",
+    "port": 2222,
+    "username": "romil",
+    "remotePath": "/home/romil/public_html/klahvimine",
+    "uploadOnSave": true,
+    "syncMode": "full",
+    "ignore": [
+        ".vscode",
+        ".git",
+        ".DS_Store",
+        "node_modules"
+    ]
+}
+```
 1. **MEELDETULETUS Kohustuslik järgmiseks loenguks!**
     **single-page-application artikli põhjal [Reimagining Single-Page Applications With Progressive Enhancement](https://www.smashingmagazine.com/2015/12/reimagining-single-page-applications-progressive-enhancement/)**
 
