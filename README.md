@@ -156,7 +156,7 @@ Need rakenduvad ka päris elus!
 
 1. Selleks, et jooksutada AJAX päringuid kohalikus masinas on vaja nt Chrome käivitada flag'iga `--allow-file-access-from-files`. Oluline on siinkohal välja tuua, et päringu `status` atribuut on pärinug õnnestumise puhul mitte 200 nagu tavaliselt, vaid hoopis 0.
    * MacOS'il `open /Applications/Google\ Chrome.app --args --allow-file-access-from-files`
-   * Windows'il `"C:\PathTo\Chrome.exe" --allow-file-access-from-files`
+   * Windows'il `start Chrome --allow-file-access-from-files`
    
 **Kohustuslik järgmiseks loenguks!**
     **Täienda skeemi, lisades juurde kasutaja skoori arvutamine**
