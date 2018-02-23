@@ -157,6 +157,12 @@ Need rakenduvad ka päris elus!
 1. Selleks, et jooksutada AJAX päringuid kohalikus masinas on vaja nt Chrome käivitada flag'iga `--allow-file-access-from-files`. Oluline on siinkohal välja tuua, et päringu `status` atribuut on pärinug õnnestumise puhul mitte 200 nagu tavaliselt, vaid hoopis 0.
    * MacOS'il `open /Applications/Google\ Chrome.app --args --allow-file-access-from-files`
    * Windows'il `"C:\PathTo\Chrome.exe" --allow-file-access-from-files`
+   
+**Kohustuslik järgmiseks loenguks!**
+    **Täienda skeemi, lisades juurde kasutaja skoori arvutamine**
+    **Loe läbi single-page-application artikli põhjal [Reimagining Single-Page Applications With Progressive Enhancement](https://www.smashingmagazine.com/2015/12/reimagining-single-page-applications-progressive-enhancement/)**
+    
+### 3. loeng
 1. Selleks, et saada lintimist tööle enda arvutis on vaja:
    * Veendu, et arvutis on [Node.js](https://nodejs.org/en/)
    * Alusta projekti kaustas käsuga `npm init` (tekivad package.json/package-lock.json). Seda on vaja teha ühe korra, edaspidi piisab järgmistest toimingutest.
@@ -183,9 +189,6 @@ Need rakenduvad ka päris elus!
 }
 ```
    * PS! Kui tahta midagi väga uhket, võib suunata greeny 443 pordi localhosti 443 porti. Seejärel minna ja lisada hosts faili MacOS'il (/etc/hosts) ja Windowsil (c:\Windows\System32\Drivers\etc\hosts) ning lisada rida `127.0.0.1     greeny.cs.tlu.ee`. Seejärel töötab brauseris aadress https://greeny.cs.tlu.ee 
-1. **MEELDETULETUS Kohustuslik järgmiseks loenguks!**
-    **single-page-application artikli põhjal [Reimagining Single-Page Applications With Progressive Enhancement](https://www.smashingmagazine.com/2015/12/reimagining-single-page-applications-progressive-enhancement/)**
-
 
 ## Materjalid ja tööriistad
 
