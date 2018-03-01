@@ -163,6 +163,28 @@ Need rakenduvad ka päris elus!
     **Loe läbi single-page-application artikli põhjal [Reimagining Single-Page Applications With Progressive Enhancement](https://www.smashingmagazine.com/2015/12/reimagining-single-page-applications-progressive-enhancement/)**
     
 ### 3. loeng
+1. JS abil andmete salvestamine
+    * [JSON](https://www.w3schools.com/js/js_json_intro.asp) annab meile võimaluse teha objektist stringi ja seda kus iganes salvestada ning programmeerimiskeelte ja lehtede vahel andmeid vahetada. 
+    * salvestamine brauseri mällu [localStorage](https://www.w3schools.com/html/html5_webstorage.asp) abil
+    * UNIX timestamp JS ja PHP vahel – [stack overflow](http://stackoverflow.com/questions/15593759/timestamp-between-javascript-and-php/20502368#20502368)
+1. AJAX
+   * [GET](http://stackoverflow.com/a/9713078)
+   * [POST](http://stackoverflow.com/a/18995200)
+1. Automaatsalvestus kui viimasest sündmusest on teatud aeg möödas
+   ```JS
+   // after typing init autosave
+
+   let timer // GLOBAL
+   const doneTypingInterval = 2500
+
+   if (timer) { clearTimeout(timer) }
+   timer = window.setTimeout(function () {
+
+      // TODO check if really changed
+      save()
+
+   }, doneTypingInterval)
+   ```
 1. Selleks, et saada lintimist tööle enda arvutis on vaja:
    * Veendu, et arvutis on [Node.js](https://nodejs.org/en/)
    * Alusta projekti kaustas käsuga `npm init` (tekivad package.json/package-lock.json). Seda on vaja teha ühe korra, edaspidi piisab järgmistest toimingutest.
@@ -170,34 +192,34 @@ Need rakenduvad ka päris elus!
    * Selleks, et tekkinud kaust node_modules ei läheks git'i üles, tuleb lisada `.gitignore` fail sisuga `node_modules` 
    * Paigalda VS Code'i extension [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
    * Lisa konfiguratsioonifail projekti juurkausta `.eslintrc`, et ESLint teaks arvestada, et kasutad standard style'i.
-```JSON
-{
-  "env": {
-    "browser": true
-  },
-  "extends": ["standard"]
-}   
-```
+   ```JSON
+   {
+     "env": {
+       "browser": true
+     },
+     "extends": ["standard"]
+   }   
+   ```
    * VS Code sätetes luba parandamine salvestamisel `"eslint.autoFixOnSave": true,` ja veendu, et tavaline lintimine on väljas `"javascript.validate.enable": false,`
-2. Varsti enam oma arvutis ainult teha ei saa ning oleks hea kui asi on üleval kuskil serveris, kus on ka HTTPS, nt greeny. Soovitan kasutada VS Code'i extensionit [sftp](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp). Config võib olla midagi sellist, eeldusel, et greeny port 22 on suunatud localhost 2222'te:
-```JSON
-{
-    "protocol": "sftp",
-    "host": "localhost",
-    "port": 2222,
-    "username": "romil",
-    "remotePath": "/home/romil/public_html/klahvimine",
-    "uploadOnSave": true,
-    "syncMode": "full",
-    "ignore": [
-        ".vscode",
-        ".git",
-        ".DS_Store",
-        "node_modules"
-    ]
-}
-```
-   * PS! Kui tahta midagi väga uhket, võib suunata greeny 443 pordi localhosti 443 porti. Seejärel minna ja lisada hosts faili MacOS'il (/etc/hosts) ja Windowsil (c:\Windows\System32\Drivers\etc\hosts) ning lisada rida `127.0.0.1     greeny.cs.tlu.ee`. Seejärel töötab brauseris aadress https://greeny.cs.tlu.ee 
+1. Varsti enam oma arvutis ainult teha ei saa ning oleks hea kui asi on üleval kuskil serveris, kus on ka HTTPS, nt greeny. Soovitan kasutada VS Code'i extensionit [sftp](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp). Config võib olla midagi sellist, eeldusel, et greeny port 22 on suunatud localhost 2222'te:
+   ```JSON
+   {
+       "protocol": "sftp",
+       "host": "localhost",
+       "port": 2222,
+       "username": "romil",
+       "remotePath": "/home/romil/public_html/klahvimine",
+       "uploadOnSave": true,
+       "syncMode": "full",
+       "ignore": [
+           ".vscode",
+           ".git",
+           ".DS_Store",
+           "node_modules"
+       ]
+   }
+   ```
+1. PS! Kui tahta midagi väga uhket, võib suunata greeny 443 pordi localhosti 443 porti. Seejärel minna ja lisada hosts faili MacOS'il (/etc/hosts) ja Windowsil (c:\Windows\System32\Drivers\etc\hosts) ning lisada rida `127.0.0.1     greeny.cs.tlu.ee`. Seejärel töötab brauseris aadress https://greeny.cs.tlu.ee 
 
 ## Materjalid ja tööriistad
 
