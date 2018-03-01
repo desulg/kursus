@@ -168,9 +168,18 @@ Need rakenduvad ka päris elus!
    * Alusta projekti kaustas käsuga `npm init` (tekivad package.json/package-lock.json). Seda on vaja teha ühe korra, edaspidi piisab järgmistest toimingutest.
    * Paigalda projekti kaustas [standard](https://www.npmjs.com/package/standard) käsuga `npm i standard`
    * Selleks, et tekkinud kaust node_modules ei läheks git'i üles, tuleb lisada `.gitignore` fail sisuga `node_modules` 
-   * Paigalda VS Code'i extension [JavaScript Standard Style](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs)
-   * VS Code sätetes luba parandamine salvestamisel `"standard.autoFixOnSave": true,` ja veendu, et tavaline lintimine on väljas `"javascript.validate.enable": false,`
-1. Varsti enam oma arvutis ainult teha ei saa ning oleks hea kui asi on üleval kuskil serveris, kus on ka HTTPS, nt greeny. Soovitan kasutada VS Code'i extensionit [sftp](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp). Config võib olla midagi sellist, eeldusel, et greeny port 22 on suunatud localhost 2222'te:
+   * Paigalda VS Code'i extension [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+   * Lisa konfiguratsioonifail projekti juurkausta `.eslintrc`, et ESLint teaks arvestada, et kasutad standard style'i.
+```JSON
+{
+  "env": {
+    "browser": true
+  },
+  "extends": ["standard"]
+}   
+```
+   * VS Code sätetes luba parandamine salvestamisel `"eslint.autoFixOnSave": true,` ja veendu, et tavaline lintimine on väljas `"javascript.validate.enable": false,`
+2. Varsti enam oma arvutis ainult teha ei saa ning oleks hea kui asi on üleval kuskil serveris, kus on ka HTTPS, nt greeny. Soovitan kasutada VS Code'i extensionit [sftp](https://marketplace.visualstudio.com/items?itemName=liximomo.sftp). Config võib olla midagi sellist, eeldusel, et greeny port 22 on suunatud localhost 2222'te:
 ```JSON
 {
     "protocol": "sftp",
