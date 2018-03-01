@@ -166,7 +166,7 @@ Need rakenduvad ka päris elus!
 1. Selleks, et saada lintimist tööle enda arvutis on vaja:
    * Veendu, et arvutis on [Node.js](https://nodejs.org/en/)
    * Alusta projekti kaustas käsuga `npm init` (tekivad package.json/package-lock.json). Seda on vaja teha ühe korra, edaspidi piisab järgmistest toimingutest.
-   * Paigalda projekti kaustas [standard](https://www.npmjs.com/package/standard) käsuga `npm i standard`
+   * Paigalda projekti kaustas [standard](https://www.npmjs.com/package/standard) ja eslint [eslint](https://www.npmjs.com/package/eslint) käsuga `npm i standard eslint `
    * Selleks, et tekkinud kaust node_modules ei läheks git'i üles, tuleb lisada `.gitignore` fail sisuga `node_modules` 
    * Paigalda VS Code'i extension [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
    * Lisa konfiguratsioonifail projekti juurkausta `.eslintrc`, et ESLint teaks arvestada, et kasutad standard style'i.
