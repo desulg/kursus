@@ -2,7 +2,7 @@
 
 #### [Lindistatud loengud saadaval SIIT YouTube'is](https://www.youtube.com/playlist?list=PLKRRRfRASlMUB-CgyJJLQ-0N3kRIisOp4)
 
-#### [Vaata kodutööde seisu SIIN](http://minitorn.cs.tlu.ee/~romil/GitHubCourseManager/view.php?org=eesrakenduste-arendamine-2018k&admin=romilrobtsenkov&exclude=kursus,1.ea-loeng,2.ea-loeng,klahvimine)
+#### [Vaata kodutööde seisu SIIN](http://minitorn.cs.tlu.ee/~romil/GitHubCourseManager/view.php?org=eesrakenduste-arendamine-2018k&admin=romilrobtsenkov&exclude=kursus,1.ea-loeng,2.ea-loeng,klahvimine,3.ea-loeng)
 
 * **Õpetaja:** Romil Rõbtšenkov, [romilr@tlu.ee](mailto:romilr@tlu.ee)
 * **Testserver:** lin2.tlu.ee (html, js), greeny.cs.tlu.ee (ssl)
@@ -46,7 +46,7 @@ ssh YourGreenyUsername@greeny.cs.tlu.ee
 ## Kodused tööd ja projektid
 
 * [1. kodutöö](https://github.com/eesrakenduste-arendamine-2017k/1.ea-kodutoo)
-* 2. kodutöö
+* [2. kodutöö](https://github.com/eesrakenduste-arendamine-2017k/2.ea-kodutoo)
 * 3. kodutöö
 * projekt
 
