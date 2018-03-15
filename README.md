@@ -162,7 +162,7 @@ Need rakenduvad ka päris elus!
     **Täienda skeemi, lisades juurde kasutaja skoori arvutamine**
     **Loe läbi single-page-application artikli põhjal [Reimagining Single-Page Applications With Progressive Enhancement](https://www.smashingmagazine.com/2015/12/reimagining-single-page-applications-progressive-enhancement/)**
     
-### 3. loeng
+### 3-4. loeng
 1. JS abil andmete salvestamine
     * [JSON](https://www.w3schools.com/js/js_json_intro.asp) annab meile võimaluse teha objektist stringi ja seda kus iganes salvestada ning programmeerimiskeelte ja lehtede vahel andmeid vahetada. 
     * salvestamine brauseri mällu [localStorage](https://www.w3schools.com/html/html5_webstorage.asp) abil
