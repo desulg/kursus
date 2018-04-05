@@ -47,7 +47,7 @@ ssh YourGreenyUsername@greeny.cs.tlu.ee
 
 * [1. kodutöö](https://github.com/eesrakenduste-arendamine-2017k/1.ea-kodutoo)
 * [2. kodutöö](https://github.com/eesrakenduste-arendamine-2017k/2.ea-kodutoo)
-* 3. kodutöö
+* [3. kodutöö](https://github.com/eesrakenduste-arendamine-2017k/3.ea-kodutoo)
 * projekt
 
 ### GitHub'i töövoog
