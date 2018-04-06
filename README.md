@@ -221,7 +221,7 @@ Need rakenduvad ka päris elus!
    ```
 1. PS! Kui tahta midagi väga uhket, võib suunata greeny 443 pordi localhosti 443 porti. Seejärel minna ja lisada hosts faili MacOS'il (/etc/hosts) ja Windowsil (c:\Windows\System32\Drivers\etc\hosts) ning lisada rida `127.0.0.1     greeny.cs.tlu.ee`. Seejärel töötab brauseris aadress https://greeny.cs.tlu.ee 
 
-### 5?. praktikum – Chrome extension
+### 5. loeng / praktikum – Chrome extension
 
 1. Chrome extensioni loomine
    - [Alustamine](https://developer.chrome.com/extensions/getstarted)
