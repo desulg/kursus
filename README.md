@@ -225,6 +225,9 @@ Need rakenduvad ka päris elus!
 
 1. Chrome extensioni loomine
    - [Alustamine](https://developer.chrome.com/extensions/getstarted)
+   - [Content scriptid](https://developer.chrome.com/extensions/content_scripts)
+   - [background <-> content suhtlemine](https://ackshaey.wordpress.com/2016/02/15/chrome-extension-development-background-page-and-content-script-communication/)
+   - [Näited](https://developer.chrome.com/extensions/samples)
 1. Abiks extension'i uuendamisel [Extensions Reloader](https://chrome.google.com/webstore/detail/extensions-reloader/fimgfedafeadlieiabdeeaodndnlbhid?hl=en)
 1. [3. kodutöö](https://github.com/eesrakenduste-arendamine-2018k/3.ea-kodutoo)
 
