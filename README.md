@@ -230,7 +230,10 @@ Need rakenduvad ka päris elus!
    - [Näited](https://developer.chrome.com/extensions/samples)
 1. Abiks extension'i uuendamisel [Extensions Reloader](https://chrome.google.com/webstore/detail/extensions-reloader/fimgfedafeadlieiabdeeaodndnlbhid?hl=en)
 1. [3. kodutöö](https://github.com/eesrakenduste-arendamine-2018k/3.ea-kodutoo)
-
+1. Täiendavalt abiks
+   - [firebase read/write](https://firebase.google.com/docs/database/web/read-and-write)
+   - [message passing](https://developer.chrome.com/extensions/messaging)
+   - [firebase example](https://github.com/firebase/quickstart-js/tree/master/auth/chromextension)
 
 ## Materjalid ja tööriistad
 
