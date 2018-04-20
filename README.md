@@ -238,7 +238,7 @@ Need rakenduvad ka päris elus!
 ### 6.praktium/loeng
 
 1. Service Worker'i kasutamine – [Service Workers: an Introduction](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers)
-1. [Push Notification](https://developers.google.com/web/fundamentals/getting-started/codelabs/push-notifications/) ja saatmise abi katsetamiseks [Push Companion](https://web-push-codelab.appspot.com/) 
+1. [Push Notification](https://developers.google.com/web/fundamentals/getting-started/codelabs/push-notifications/)
 1. Mobiilse seadme kasutamine debugimiseks Chrome'iga [Get Started with Remote Debugging Android Devices](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/)
 1. Chrome debug urli [chrome://inspect/#service-workers](chrome://inspect/#service-workers) ja [chrome://serviceworker-internals/](chrome://serviceworker-internals/)
 
