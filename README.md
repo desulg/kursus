@@ -241,6 +241,7 @@ Need rakenduvad ka päris elus!
 1. [Push Notification](https://developers.google.com/web/fundamentals/getting-started/codelabs/push-notifications/)
 1. Mobiilse seadme kasutamine debugimiseks Chrome'iga [Get Started with Remote Debugging Android Devices](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/)
 1. Chrome debug urli [chrome://inspect/#service-workers](chrome://inspect/#service-workers) ja [chrome://serviceworker-internals/](chrome://serviceworker-internals/)
+1. Ikoonid mobiilirakenduse jaoks [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
 
 ## Materjalid ja tööriistad
 
