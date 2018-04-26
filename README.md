@@ -243,7 +243,7 @@ Need rakenduvad ka päris elus!
 1. Ikoonid mobiilirakenduse jaoks [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
 1. Märguannete saatmine [pushjs.org](https://pushjs.org/)
 
-### 6.loeng
+### 7.loeng
 
 1. [jQuery](https://jquery.com/) 
 1. API'de näited
