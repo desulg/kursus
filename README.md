@@ -6,7 +6,6 @@
 
 * **Õpetaja:** Romil Rõbtšenkov, [romilr@tlu.ee](mailto:romilr@tlu.ee)
 * **Testserver:** lin2.tlu.ee (html, js), greeny.cs.tlu.ee (ssl)
-* **Tunni näited:** [~romil/ea17k](http://minitorn.cs.tlu.ee/~romil/ea2018k)
 
 ### Ühendus Greeny'sse
 
