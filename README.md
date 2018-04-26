@@ -48,7 +48,7 @@ ssh YourGreenyUsername@greeny.cs.tlu.ee
 * [1. kodutöö](https://github.com/eesrakenduste-arendamine-2017k/1.ea-kodutoo)
 * [2. kodutöö](https://github.com/eesrakenduste-arendamine-2017k/2.ea-kodutoo)
 * [3. kodutöö](https://github.com/eesrakenduste-arendamine-2017k/3.ea-kodutoo)
-* projekt
+* [4. kodutöö](https://github.com/eesrakenduste-arendamine-2017k/4.ea-kodutoo)
 
 ### GitHub'i töövoog
 
@@ -242,6 +242,7 @@ Need rakenduvad ka päris elus!
 1. Mobiilse seadme kasutamine debugimiseks Chrome'iga [Get Started with Remote Debugging Android Devices](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/)
 1. Chrome debug urli [chrome://inspect/#service-workers](chrome://inspect/#service-workers) ja [chrome://serviceworker-internals/](chrome://serviceworker-internals/)
 1. Ikoonid mobiilirakenduse jaoks [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
+1. Märguannete saatmine [pushjs.org](https://pushjs.org/)
 
 ## Materjalid ja tööriistad
 
