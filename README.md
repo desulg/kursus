@@ -243,6 +243,18 @@ Need rakenduvad ka päris elus!
 1. Ikoonid mobiilirakenduse jaoks [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
 1. Märguannete saatmine [pushjs.org](https://pushjs.org/)
 
+### 6.loeng
+
+1. [jQuery](https://jquery.com/) 
+1. API'de näited
+   -  [twitter-search-api-example](https://github.com/eesrakenduste-arendamine-2018k/twitter-search-api-example) näidisrepo
+      - [Twitter My Apps](https://apps.twitter.com/) - loo endale rakendus
+      - [Twitter Search API](https://dev.twitter.com/rest/public/search) - dokumentatsioon
+      - [Twitter API Exchange](https://github.com/J7mbo/twitter-api-php) - lisateek, et kergem päringuid teha
+   - [google-maps-example](https://github.com/eesrakenduste-arendamine-2018k/google-maps-example) näidisrepo
+      - [Google Developers Console](https://console.developers.google.com) - loo endale rakendus
+      - [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/) - dokumentatsioon
+
 ## Materjalid ja tööriistad
 
 ### Tunnis kasutatavad rakendused
