@@ -2,7 +2,7 @@
 
 #### [Lindistatud loengud saadaval SIIT YouTube'is](https://www.youtube.com/playlist?list=PLKRRRfRASlMUB-CgyJJLQ-0N3kRIisOp4)
 
-#### [Vaata kodutööde seisu SIIN](http://minitorn.cs.tlu.ee/~romil/GitHubCourseManager/view.php?org=eesrakenduste-arendamine-2018k&admin=romilrobtsenkov&exclude=kursus,1.ea-loeng,2.ea-loeng,klahvimine,3.ea-loeng,5.ea-loeng)
+#### [Vaata kodutööde seisu SIIN](http://minitorn.cs.tlu.ee/~romil/GitHubCourseManager/view.php?org=eesrakenduste-arendamine-2018k&admin=romilrobtsenkov&exclude=kursus,1.ea-loeng,2.ea-loeng,klahvimine,3.ea-loeng,5.ea-loeng,sayings-offline-app)
 
 * **Õpetaja:** Romil Rõbtšenkov, [romilr@tlu.ee](mailto:romilr@tlu.ee)
 * **Testserver:** lin2.tlu.ee (html, js), greeny.cs.tlu.ee (ssl)
