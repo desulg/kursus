@@ -45,10 +45,10 @@ ssh YourGreenyUsername@greeny.cs.tlu.ee
 
 ## Kodused tööd ja projektid
 
-* [1. kodutöö](https://github.com/eesrakenduste-arendamine-2017k/1.ea-kodutoo)
-* [2. kodutöö](https://github.com/eesrakenduste-arendamine-2017k/2.ea-kodutoo)
-* [3. kodutöö](https://github.com/eesrakenduste-arendamine-2017k/3.ea-kodutoo)
-* [4. kodutöö](https://github.com/eesrakenduste-arendamine-2017k/4.ea-kodutoo)
+* [1. kodutöö](https://github.com/eesrakenduste-arendamine-2018k/1.ea-kodutoo)
+* [2. kodutöö](https://github.com/eesrakenduste-arendamine-2018k/2.ea-kodutoo)
+* [3. kodutöö](https://github.com/eesrakenduste-arendamine-2018k/3.ea-kodutoo)
+* [4. kodutöö](https://github.com/eesrakenduste-arendamine-2018k/4.ea-kodutoo)
 
 ### GitHub'i töövoog
 
